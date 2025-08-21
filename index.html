@@ -309,8 +309,7 @@
       if (count > 0) {
         const avg = totalRatio / count;
         if (Math.round(avg * 1000) / 1000 >= 0.935) {
-          message.textContent = "Can become Godly";
-          message.textContent = 'Equipment is ${Math.round(avg * 1000) / 1000 * 100}  efficient!';
+          message.textContent = 'Can become Godly\nEquipment is ${Math.round(avg * 1000) / 1000 * 100} %% efficient!';
         } else {
           message.textContent = "";
         }
